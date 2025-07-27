@@ -1,0 +1,50 @@
+# Node.js (Frontend)
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+dist/
+out/
+
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS system files
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+.docker/
+*.log
+
+# VS Code
+.vscode/
+
+# .NET (Backend)
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code and Rider
+.idea/
+*.sln.iml
+
+# Coverage and test output
+coverage/
+TestResults/
+*.trx
+
+# Temporary files
+tmp/
+temp/
